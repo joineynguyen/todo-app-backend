@@ -1,4 +1,4 @@
-package model;
+package com.joineynguyen.todo_app_backend.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -25,6 +25,5 @@ public class Todo {
         this.title = title;
         this.completed = completed;
     }
-
 
 }
