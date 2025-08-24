@@ -1,0 +1,32 @@
+# ================================================
+# TodoController API Tests
+# Base URL
+@baseUrl = http://localhost:8080/api/todos
+# ================================================
+
+### Create a new Todo
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "title": "Test Todo 67 12312312",
+    "completed": false
+}
+
+### Get all Todos
+GET {{baseUrl}}
+
+### Get Todo by ID
+GET {{baseUrl}}/3
+
+### Update Todo by ID
+PUT {{baseUrl}}/3
+Content-Type: application/json
+
+{
+    "title": "Updated Todo Title",
+    "completed": false
+}
+
+### Delete Todo by ID
+DELETE {{baseUrl}}/3
