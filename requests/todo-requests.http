@@ -17,10 +17,10 @@ Content-Type: application/json
 GET {{baseUrl}}
 
 ### Get Todo by ID
-GET {{baseUrl}}/3
+GET {{baseUrl}}/1
 
 ### Update Todo by ID
-PUT {{baseUrl}}/3
+PUT {{baseUrl}}/1
 Content-Type: application/json
 
 {
@@ -29,4 +29,4 @@ Content-Type: application/json
 }
 
 ### Delete Todo by ID
-DELETE {{baseUrl}}/3
+DELETE {{baseUrl}}/1
